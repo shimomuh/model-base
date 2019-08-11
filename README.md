@@ -13,3 +13,16 @@ Blender で [Auto Weight Paint - Ctrl + P] を実行した際に割り当てら�
 ### move
 
 ![](./structure-base/move.gif)
+
+関節部分に相当するポリゴン数を減らした場合どうなるかの検証
+
+今回はわかりやすさのためにメッシュを UV 画像として展開して表現してみた
+
+|base|less|
+|---|---|
+|![](./structure-base/standard01.gif)|![](./structure-base/standard02.gif)|
+
+よって関節部分は広い方が
+
+* テクスチャは大きく変化してしまうのでつぶれやすく
+* ポリゴンは変化領域が広いので自動ウェイトで周囲(関節に近いポリゴン)が影響を受けにくい
