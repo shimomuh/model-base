@@ -31,7 +31,7 @@ Blender で [Auto Weight Paint - Ctrl + P] を実行した際に割り当てら�
 
 |least|
 |---|
-|![](./structure-base/standard03.gif)|
+|![](./structure-base/standard05.gif)|
 
 あまり支障なさそうにみえた
 
